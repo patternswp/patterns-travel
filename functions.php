@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 define( 'PATTERNS_TRAVEL_PATH', trailingslashit( get_template_directory() ) );
 define( 'PATTERNS_TRAVEL_URL', trailingslashit( get_template_directory_uri() ) );
-define( 'PATTERNS_TRAVEL_VERSION', '1.0.0' );
+define( 'PATTERNS_TRAVEL_VERSION', '2.0.0' );
 define( 'PATTERNS_TRAVEL_THEME_NAME', 'patterns-travel' );
 define( 'PATTERNS_TRAVEL_OPTION_NAME', 'patterns-travel' );
 
