@@ -484,12 +484,17 @@ if ( ! function_exists( 'patterns_travel_file_system' ) ) {
 	}
 }
 
-if ( ! function_exists( 'patterns_travel_parse_changelog' ) ) {
+if ( ! function_exists( 'patterns_travel_parse_changelog' ) ) :
 	/**
-	 * Parse changelog
+	 * Parse the changelog section from the theme's readme.txt.
+	 *
+	 * Reads the WP.org-format readme, finds the == Changelog == section,
+	 * and returns the resulting text (including per-version headings
+	 * like `= 1.2.3 =` and blank lines between versions), sanitized via
+	 * wp_kses_post().
 	 *
 	 * @since 1.0.0
-	 * @return string
+	 * @return string Sanitized changelog text, or empty string if unavailable.
 	 *
 	 * @author     codersantosh <codersantosh@gmail.com>
 	 */
