@@ -497,9 +497,12 @@ if ( ! function_exists( 'patterns_travel_parse_changelog' ) ) {
 
 		$wp_filesystem = patterns_travel_file_system();
 
-		$changelog_file = apply_filters( 'patterns_travel_changelog_file', PATTERNS_TRAVEL_PATH . 'readme.txt' );
+		$changelog_file = apply_filters(
+			'patterns_travel_changelog_file',
+			PATTERNS_TRAVEL_PATH . 'readme.txt'
+		);
 
-		/*Check if the changelog file exists and is readable.*/
+		/* Check if the changelog file exists and is readable. */
 		if ( ! $changelog_file || ! is_readable( $changelog_file ) ) {
 			return '';
 		}
@@ -515,16 +518,16 @@ if ( ! function_exists( 'patterns_travel_parse_changelog' ) ) {
 		$changelog = '';
 
 		if ( preg_match( $regexp, $content, $matches ) ) {
-			$changes = explode( '\r\n', trim( $matches[1] ) );
+			$changes = preg_split( '/\R/', trim( $matches[1] ) );
 
 			foreach ( $changes as $index => $line ) {
-				$changelog .= wp_kses_post( preg_replace( '~(=\s*Version\s*(\d+(?:\.\d+)+)\s*=|$)~Uis', '', $line ) );
+				$changelog .= wp_kses_post( $line ) . "\n";
 			}
 		}
 
-		return wp_kses_post( $changelog );
+		return $changelog;
 	}
-}
+endif;
 
 if ( ! function_exists( 'patterns_travel_get_theme_faq' ) ) :
 	/**
