@@ -40,7 +40,7 @@ This theme bundles the following third-party resources:
 
 Playfair Display Font
 
-Copyright 2017 The Playfair Display Project Authors 
+Copyright 2017 The Playfair Display Project Authors
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
 Source: https://github.com/clauseggers/Playfair-Display
 
@@ -67,7 +67,7 @@ https://pxhere.com/en/photo/53016
 
 === Icons Images ===
 
-Material Icons Font 
+Material Icons Font
 
 https://fonts.google.com/icons
 

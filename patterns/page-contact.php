@@ -8,5 +8,5 @@
  */
 
 ?>
-<!-- wp:pattern {"slug":"patterns-travel/featured-section-9"} /--> 
+<!-- wp:pattern {"slug":"patterns-travel/featured-section-9"} /-->
 <!-- wp:pattern {"slug":"patterns-travel/featured-section-4"} /-->

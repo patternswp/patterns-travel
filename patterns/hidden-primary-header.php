@@ -90,11 +90,11 @@
 <div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)">
 
 	<!-- wp:group {"align":"wide","layout":{"type":"flex","justifyContent":"space-between","flexWrap":"wrap"}} -->
-	<div class="wp-block-group alignwide">	
-		
+	<div class="wp-block-group alignwide">
+
 		<!-- wp:pattern {"slug":"patterns-travel/site-identity"} /-->
-		<!-- wp:pattern {"slug":"patterns-travel/navigation-menu"} /-->      
-	
+		<!-- wp:pattern {"slug":"patterns-travel/navigation-menu"} /-->
+
 	</div>
 	<!-- /wp:group -->
 
