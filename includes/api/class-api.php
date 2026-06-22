@@ -36,14 +36,14 @@ if ( ! class_exists( 'Patterns_Travel_Api' ) ) {
 		/**
 		 * Rest route namespace.
 		 *
-		 * @var Patterns_Travel_Api
+		 * @var string
 		 */
 		public $namespace = 'patterns-travel/';
 
 		/**
 		 * Rest route version.
 		 *
-		 * @var Patterns_Travel_Api
+		 * @var string
 		 */
 		public $version = 'v1';
 
