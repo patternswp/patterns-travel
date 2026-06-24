@@ -2,9 +2,9 @@
 
 Contributors: patternswp, codersantosh
 Requires at least: 6.6
-Tested up to: 6.7
+Tested up to: 7.0
 Requires PHP: 7.0
-Stable tag: 1.0.0
+Stable tag: 2.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -40,7 +40,7 @@ This theme bundles the following third-party resources:
 
 Playfair Display Font
 
-Copyright 2017 The Playfair Display Project Authors 
+Copyright 2017 The Playfair Display Project Authors
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
 Source: https://github.com/clauseggers/Playfair-Display
 
@@ -67,7 +67,7 @@ https://pxhere.com/en/photo/53016
 
 === Icons Images ===
 
-Material Icons Font 
+Material Icons Font
 
 https://fonts.google.com/icons
 
@@ -83,6 +83,10 @@ License: MIT License, https://opensource.org/licenses/MIT
 Source: https://github.com/twbs/icons
 
 == Changelog ==
+
+= 2.0.0 =
+* Hardening: 2.0.0 release — a11y (WCAG 1.4.12), review notice defaults, theme.json correctness, deploy.js parity with boilerplate.
+
 
 = 1.0.0 =
 * Initial release

@@ -22,7 +22,7 @@
 <!-- wp:column {"verticalAlignment":"center","width":"55%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:55%"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
-<div class="wp-block-column"> 
+<div class="wp-block-column">
 	<!-- wp:pattern {"slug":"patterns-travel/card-2"} /-->
 </div>
 <!-- /wp:column -->
